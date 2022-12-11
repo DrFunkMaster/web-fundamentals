@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" href="../IMAGE/circuit.png" type="image/x-icon">
+    <title>Courses</title>
+    <script src="../JS/hide.js"></script>
+    <script src="../JS/show.js"></script>
+</head>
+<body>
+            <!--LOADING-->
+            <div class="loader">
+                <img src="../IMAGE/loading-load.gif" alt="Loading..." />
+            </div>
+            <!--LOADING-->
+    
+    <header>
+        <p class="designedby">&copy;Website designed by Guillermo Perez Perez</p>
+    </header>
+
+        <!--BARRA DE NAVEGACIÓN-->
+        <nav class="navmenu">
+            <ul>
+                <li class="menu_item">
+                    <a class="menu" href="../index.html">Home</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu" href="about.html">About me</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu" href="contact.html">Contact</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu" href="net.html">Net</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu" href="topic.html">Off topic</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu" href="courses.html">Courses</a>
+                </li>
+                <li class="menu_item">
+                    <a href="https://www.ufv.es/"><img class="ufv" src="../IMAGE/ufv.png" alt=""></a>
+                </li>
+            </ul>
+     </nav>
+    <!--BARRA DE NAVEGACIÓN-->
+    
+
+
+
+    <div id="courses"> <!--Container for courses menu-->
+        <ul>
+            <!--First year courses-->
+            <li id="section1" onmouseover="show(1)" onmouseout="hide(1)">
+                <a href="#">First year</a>
+                  <div id="subsection1">
+                      <!--First year courses-->
+                      <p><a href="fundamentals.html">Fundamentals of computer engineering</a></p>
+                      <p><a href="#">Mathematics for engineering</a></p>
+                      <p><a href="#">Discrete Math</a></p>
+                      <p><a href="#">Introduction to cybersecurity</a></p>
+                      <p><a href="#">Systems administration I</a></p>
+                      <p><a href="#">Introduction to programming</a></p>
+                      <p><a href="#">Knowledge management</a></p>
+                      <p><a href="#">Logic and critic thought</a></p>
+                      <p><a href="#">The company and its processes</a></p>
+                      <p><a href="#">Electronic and computer tecnology</a></p>
+                      <p><a href="#">Object Oriented Programming</a></p>
+                      <p><a href="#">History of science and technology</a></p>
+                  </div>
+            </li>
+            
+
+            <!--Second year courses-->
+            <li id="section2" onmouseover="show(2)" onmouseout="hide(2)">
+                <a href="#">Second year</a>
+                  <div id="subsection2">
+                      <!--Second year courses-->
+                      <p><a href="#">Data structures and algorithms</a></p>
+                      <p><a href="#">Architecture and computer management</a></p>
+                      <p><a href="#">Web developing</a></p>
+                      <p><a href="#">Analysis and design of information systems</a></p>
+                      <p><a href="#">Projects I</a></p>
+                      <p><a href="#">Anthropology and social responsibilty</a></p>
+                      <p><a href="#">Statistics</a></p>
+                      <p><a href="#">Databases</a></p>
+                      <p><a href="#">Operative systems</a></p>
+                      <p><a href="#">Software engineering I</a></p>
+                      <p><a href="#">Ethical hacking and pentesting I</a></p>
+                      <p><a href="#">Ethical hacking and pentesting II</a></p>
+                      <p><a href="#">Forensic computing</a></p>
+                      <p><a href="#">Secure Development S - SDLC - OWASP</a></p>
+                  </div>
+            </li>
+
+
+
+            <!--Third year courses-->
+            <li id="section3" onmouseover="show(3)" onmouseout="hide(3)">
+                <a href="#">Third year</a>
+                <div id="subsection3">
+                    <!--Third year courses-->
+                    <p><a href="#">Artificial intelligence I</a></p>
+                    <p><a href="#">Software engineering II</a></p>
+                    <p><a href="#">Developing and software integration</a></p>
+                    <p><a href="#">Human computer interaction</a></p>
+                    <p><a href="#">Computational complexity</a></p>
+                    <p><a href="#">Ethics and profesional deontology</a></p>
+                    <p><a href="#">System administration</a></p>
+                    <p><a href="#">Advanced databases</a></p>
+                    <p><a href="#">Networks and distributed systems</a></p>
+                    <p><a href="#">Projects II</a></p>
+                    <p><a href="#">Statistical learning and data mining</a></p>
+                    <p><a href="#">Artificial intelligence II</a></p>
+                    <p><a href="#">Security in Mobile and Web apps</a></p>
+                    <p><a href="#">Security in IoT</a></p>
+                    <p><a href="#">Blockchain technology</a></p>
+                </div>
+            </li>
+
+
+
+            <!--Fourth year courses-->
+            <li id="section4" onmouseover="show(4)" onmouseout="hide(4)">
+                <a href="#">Fourth year</a>
+                <div id="subsection4">
+                    <!--Third year courses-->
+                    <p><a href="#">High performance computing</a></p>
+                    <p><a href="#">The Question of God in the Digital Age Digital</a></p>
+                    <p><a href="#">Quality Management</a></p>
+                    <p><a href="#">Security</a></p>
+                    <p><a href="#">Planning and Management of IT Projects</a></p>
+                    <p><a href="#">Knowledge Engineering</a></p>
+                    <p><a href="#">Final Degree Project</a></p>
+                    <p><a href="#">Electives</a></p>
+                    <p><a href="#">Certification training I</a></p>
+                    <p><a href="#">Certification training II</a></p>
+                </div>
+            </li>
+           
+
+        </ul>
+    </div>
+
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <script src="../JS/mouse.js"></script>
+    <script src="../JS/loadingScreen.js"></script>
+
+    <footer class="footerAbout">
+        My profiles:
+        <a href="https://www.linkedin.com/in/guillermo-pérez-2644691ba" target="_blank"><img src="../IMAGE/LinkedIn.png" alt="LinkedIn" class="footerLogo"></a>
+        <a href="https://github.com/DrFunkMaster" target="_blank"><img src="../IMAGE/github.png" alt="GitHub" class="footerLogo"></a>
+    </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" href="../IMAGE/circuit.png" type="image/x-icon">
+    <title>Contact</title>
+</head>
+<body>
+            <!--LOADING-->
+            <div class="loader">
+                <img src="../IMAGE/loading-load.gif" alt="Loading..." />
+            </div>
+            <!--LOADING-->
+    
+    <header>
+        <p class="designedby">&copy;Website designed by Guillermo Perez Perez</p>
+    </header>
+
+        <!--BARRA DE NAVEGACIÓN-->
+        <nav class="navmenu">
+            <ul>
+                <li class="menu_item">
+                    <a class="menu" href="../index.html">Home</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu" href="about.html">About me</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu" href="contact.html">Contact</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu" href="net.html">Net</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu" href="topic.html">Off topic</a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu" href="courses.html">Courses</a>
+                </li>
+                <li class="menu_item">
+                    <a href="https://www.ufv.es/"><img class="ufv" src="../IMAGE/ufv.png" alt=""></a>
+                </li>
+            </ul>
+     </nav>
+    <!--BARRA DE NAVEGACIÓN-->
+
+    <table class="contact">
+        <td>
+            <form class="form" action="mailto:gperezperezdl@gmail.com" method="POST" enctype="multipart/form-data">
+                <div class="row">
+                    <label class="required" for="name">Name:</label><br/>
+                    <input type="text" value="" size="30" id="name"/><br/>
+                    <script>
+                        var name = document.getElementById('name');
+                    </script>
+                </div>
+                <label class="required" for="email">E-Mail:</label><br />
+                <input type="text" value="" size="30" id="email"/><br />
+                <script>
+                    var email = document.getElementById('email');
+                </script>
+            </div>
+
+            <div class="row">
+                <label for="subject">Subject:</label><br>
+                <textarea name="subject" id="subject" cols="30" rows="1"></textarea>
+                <script>
+                    var subject = document.getElementById('subject');
+                </script>
+            </div>
+            <div class="row">
+                <label class="required" for="message">Your message:</label><br />
+                <textarea id="message" class="input" name="message" rows="7" cols="30" id="message"></textarea><br/>
+                <script>
+                    var message = document.getElementById('message');
+                </script>
+                <br>
+                <br>
+            </div>
+            <input id="submit" type="submit" value="Send" onclick="sendMail(name,email,subject,message)"></input>
+            <input id="reset" type="reset" value="Reset"/>
+        </form>
+    </td>
+    <td>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12146.41348428508!2d-3.8341437!3d40.4397807!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9b035d2695ce702c!2sUniversidad%20Francisco%20de%20Vitoria!5e0!3m2!1ses!2suk!4v1670226409193!5m2!1ses!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </td>
+    
+    </table>
+    </table>
+
+
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <script src="../JS/mouse.js"></script>
+    <script src="../JS/loadingScreen.js"></script>
+
+    <footer class="footerAbout">
+        My profiles:
+        <a href="https://www.linkedin.com/in/guillermo-pérez-2644691ba" target="_blank"><img src="../IMAGE/LinkedIn.png" alt="LinkedIn" class="footerLogo"></a>
+        <a href="https://github.com/DrFunkMaster" target="_blank"><img src="../IMAGE/github.png" alt="GitHub" class="footerLogo"></a>
+    </footer>
+
+</body>
+</html>
